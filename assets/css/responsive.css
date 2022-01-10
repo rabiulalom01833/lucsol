@@ -1,0 +1,134 @@
+/**
+ * /* Extra large devices (large desktops, 1200px and up)
+ *
+ * @format
+ */
+
+@media (min-width:1921px) and (max-width: 2560px) {
+    .menu {
+        position: relative;
+        margin-top: 3%;
+
+    }
+}
+
+@media (min-width:11200px) and (max-width: 1920px) {
+    .menu {
+        position: relative;
+        margin-top: 3%;
+
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .menu ul li a {
+        font-size: 20px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .menu ul li a {
+        font-size: 20px;
+    }
+
+
+
+    body {
+        height: 1000px;
+        background-size: cover;
+    }
+
+    .menu {
+        margin-top: 0;
+    }
+}
+
+/* All Mobile Devices */
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .menu ul li a {
+        font-size: 20px;
+    }
+
+
+
+
+    .mail_bg {
+        width: 300px;
+        height: 300px;
+        top: 255px;
+    }
+
+
+
+    .mail h3 {
+        font-size: 20px;
+    }
+
+    .mail h4 {
+        font-size: 22px;
+    }
+
+    .menu::before {
+        height: 141px;
+    }
+
+    .menu {
+        margin-top: 0;
+    }
+
+    .menu ul li a {
+        font-size: 18px;
+        margin: 0 5px;
+    }
+
+    .menu ul li {
+        display: block;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .mail {
+        width: 80%;
+    }
+
+    body {
+        background: unset;
+        background: #000;
+    }
+
+    .boddyarea {
+        background: url(../img/shortbg.png);
+        width: 100%;
+        height: 325px;
+        margin-top: 120px;
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .menu ul {
+        margin-top: -109px;
+    }
+
+    .menu::before {
+        height: 141px;
+        background: rgba(211, 32, 32, 1);
+        top: -120px;
+    }
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
+
+/*  */
+@media (min-width: 320px) and (max-width: 575.98px) {}
+
+@media (min-width: 320px) and (max-width: 375px) {}
